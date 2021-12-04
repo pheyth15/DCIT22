@@ -1,0 +1,98 @@
+.body {
+	background-image:url("assets/gif1.gif");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	padding:5%;
+      
+}
+
+
+.wrapper{
+    margin:10px;
+	margin:auto;
+	text-align:center;
+	border:10px solid #1a1a1a;
+	border-radius: 25px;
+	padding: 10px;
+	background-color: #222;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:absolute;
+	width: 80%;
+	color: white;
+	overflow: auto;
+	display: block;
+}
+.wrapper > h3{
+	font-family:arial;
+	font-size:40px;
+	text-shadow: 2px 2px 15px #000000;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.2s;
+}
+
+.wrapper > p{
+	text-align:justify;
+	text-indent:100px;
+	font-size:20px;
+	FONT-FAMILY:Verdana;
+	text-shadow: 2px 2px 4px #000000;
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.2s;
+}
+
+.rayt4{
+width:400px;
+text-align: right;
+float:right;
+border-radius:10px;
+margin-right: 5%;
+max-width:100%;
+margin-top:1.5%;
+opacity: 1;
+animation-name: fadeInOpacity;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+animation-duration: 1.2s;
+}
+
+.icons1{	
+font-size: 50px;
+word-spacing: .5cm;
+margin-right: 9%;
+text-align: right;
+float: right;
+text-decoration: none;
+cursor: pointer;
+opacity: 1;
+animation-name: fadeInOpacity;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+animation-duration: 1.2s;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: #0066cc;
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
